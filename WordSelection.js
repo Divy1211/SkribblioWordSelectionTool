@@ -1,10 +1,10 @@
-var unitscb, unitslist = "Villager, Spearman, Pikeman, Halberdier, Man At Arms, Long Swordsman, Militia, Champion, Eagle Warrior, Condottiero, Knight, Cavalier, Paladin, Steppe Lancer, Scout Cavalry, Light Cavalry, Hussar, Battle Elephant, Camel, Archer, Crossbowman, Arbalest, Skirmisher, Cavalry Archer, Genitour, Hand Cannoneer, Monk, Capped Ram, Siege Ram, Mangonel, Onager, Scorpion, Siege Tower, Trebuchet, Petard, Fishing Ship, Trade Cog, Transport Ship, Galley, War Galley, Galleon, Fire Ship, Demolition Ship, Cannon Galleon, Bombard Cannon, Cobra Car, Eagle Scout, Battering Ram, Siege Onager, Fire Galley, Demolition Raft, Arbalester, Fast Fire Ship, Two-Handed Swordsman, ";
+var unitscb, unitslist = "Villager, Spearman, Pikeman, Halberdier, Man At Arms, Long Swordsman, Militia, Champion, Eagle Warrior, Condottiero, Knight, Cavalier, Paladin, Steppe Lancer, Scout Cavalry, Light Cavalry, Hussar, Battle Elephant, Camel, Archer, Crossbowman, Skirmisher, Cavalry Archer, Genitour, Hand Cannoneer, Monk, Capped Ram, Siege Ram, Mangonel, Onager, Scorpion, Siege Tower, Trebuchet, Petard, Fishing Ship, Trade Cog, Transport Ship, Galley, War Galley, Galleon, Fire Ship, Demolition Ship, Cannon Galleon, Bombard Cannon, Cobra Car, Eagle Scout, Battering Ram, Siege Onager, Fire Galley, Demolition Raft, Arbalester, Fast Fire Ship, Two-Handed Swordsman, ";
 
 var techscb, techslist = "Supplies, Tracking, Squires, Arson, Thumb Ring, Parthian Tactics, Bloodlines, Husbandry, Gillnets, Careening, Dry Dock, Shipwright, Forging, Iron Casting, Blast Furnace, Fletching, Bodkin Arrow, Bracer, Masonry, Architecture, Chemistry, Siege Engineers, Ballistics, Heated Shot, Murder Holes, Arrowslits, Treadmill Crane, Bow Saw, Stone Mining, Gold Mining, Horse Collar, Heavy Plow, Crop Rotation, Trade Cart, Caravan, Coinage, Banking, Guilds, Hoardings, Sappers, Spies, Treason, Conscription, Wheelbarrow, Hand Cart, Loom, Town Watch, Town Patrol, Two-Man Saw, Double-Bit Axe, ";
 
 var monasterytechscb, monasterytechslist = "Redemption, Fervor, Sanctity, Atonement, Herbal Medicine, Heresy, Block Printing, Illumination, Theocracy, Faith, ";
 
-var uniquetechscb, uniquetechslist = "Garland Wars, Atlatl, Obsidian Arrows, El Dorado, Supremacy, Inquisition, Furor Celtica, Stronghold, Yeomen, Warwolf, Chivalry, Bearded Axe, Logistica, Greek Fire, Madrasah, Zealotry, Kamandaran, Boiling Oil, Mahouts, Sipahi, Artillery, Berserkergang, Chivalry, Crenellations, Ironclad, Atheism, Marauders, Anarchy, Perfusion, Kataparuto, Yasama, Shinkichon, Panokseon, Rocketry, Great Wall, Drill, Nomads, Shatagni, Sultans, Druzhina, Orthodoxy, Pavise, Silk Road, Andean Sling, Couriers, Recurve Bow, Mercenaries, Arquebus, Carrack, Royal Heirs, Torsion Engines, Tigui, Farimba, Kasbah, Maghrabi Camels, Chatras, Paper Money, Double Crossbow, Tusk Swords, Manipur Cavalry, Howdah, Thalassocracy, Forced Levy, Stirrups, Bagains, Cuman Mercenaries, Steppe Husbandry, Silk Armor, Timurid Siegecraft, Hill Forts, Tower Shields, ";
+var uniquetechscb, uniquetechslist = "Garland Wars, Atlatl, Obsidian Arrows, El Dorado, Supremacy, Inquisition, Furor Celtica, Stronghold, Yeomen, Warwolf, Chivalry, Bearded Axe, Logistica, Greek Fire, Madrasah, Zealotry, Kamandaran, Boiling Oil, Mahouts, Sipahi, Artillery, Berserkergang, Chivalry, Crenellations, Ironclad, Atheism, Marauders, Anarchy, Perfusion, Kataparuto, Yasama, Shinkichon, Panokseon, Rocketry, Great Wall, Drill, Nomads, Shatagni, Sultans, Druzhina, Orthodoxy, Pavise, Silk Road, Andean Sling, Couriers, Recurve Bow, Corvinian Army, Arquebus, Carrack, Royal Heirs, Torsion Engines, Tigui, Farimba, Kasbah, Maghrabi Camels, Chatras, Paper Money, Double Crossbow, Tusk Swords, Manipur Cavalry, Howdah, Thalassocracy, Forced Levy, Stirrups, Bagains, Cuman Mercenaries, Steppe Husbandry, Silk Armor, Timurid Siegecraft, Hill Forts, Tower Shields, ";
 
 var buildingscb, buildingslist = "Farm, Mill, Lumber Camp, Mining Camp, Market, House, University, Blacksmith, Siege Workshop, Town Center, Castle, Monastery, Palisade Wall, Stone Wall, Fortified Wall, Outpost, Watch Tower, Guard Tower, Keep, Bombard Tower, Fish Trap, Dock, Stable, Barracks, Archery Range, Feitoria, Wonder, Krepost, Harbor, ";
 
@@ -18,9 +18,9 @@ var proplayerscb, proplayerslist = "Nili, Tatoh, Daut, TheViper, Hera, Liereyy, 
 
 var heroescb, heroeslist = "Joan of Arc, Saladin, Genghis Khan, Barbarossa, William Wallace, Atilla the Hun, El Cid, Montezuma, Robin Hood, ";
 
-var stratscb, stratslist = "Drush, Fast Castle, Tower Rush, Lame, Flush, Smush, Trush, Cutting Woodling with Onager, Douche, ";
+var stratscb, stratslist = "Drush, Fast Castle, Tower Rush, Lame, Flush, Smush, Trush, Douche, Krush, Grush, ";
 
-var streamerscb, streamerslist = "ZeroEmpires, T90Official, LilTrouble, Inc, Ashleylynn, NerdRageQuit, Project Belgium, MembTV, Slam, F1re, ArtemizPlayz, ";
+var streamerscb, streamerslist = "FrostyJanissary, ZeroEmpires, T90Official, LilTrouble, Inc, Ashleylynn, NerdRageQuit, MembTV, ArtemizPlayz, ShadowCrystallux, grathwrang, ilovebaskets, lidakor, naomi, hippo_run, ";
 
 var tournamentscb, tournamentslist = "Hidden Cup, King of the Desert, Nili Apartment Cup, Decathlon, ";
 
@@ -28,9 +28,11 @@ var animalscb, animalslist = "Wolf, Boar, Deer, Ibex, Shore Fish, Forage Bush, R
 
 var gamemodescb, gamemodeslist = "Team Game, Minimap, Flare, Tribute, Bonus, Economy, Military, Score, Regicide, Random Map, Death Match, King of the Hill, Community Game, Sudden Death, Capture the Relic, Empire Wars, Wood, Food, Gold, Stone, Dark Age, Feudal Age, Castle Age, Imperial Age, Voobly, HD, DE, Steam, ";
 
-var memescb, memeslist = "Elite Boar, Makayuk, Sustainability, Mandatum, Til Bardaga, KNIEF, t90Farms, thxDE, t90Ranges, t90Woo, ";
+var memescb, memeslist = "le mayo, Elite Boar, Makayuk, Sustainability, Mandatum, Til Bardaga, KNIEF, t90Farms, thxDE, t90Ranges, t90Woo, Trade Cock, Karambitcoin, Daut Castle, ";
 
 var peoplecb, peoplelist = "Moonfaller, Salted Pepper, Mmarss, Robinlaws, Kaaru, Alian, Devoury, ";
+
+var mastapiecescb, mastapieceslist = "Cutting Woodline with Onager, Cutting Woodline with Ballista Elephants, Waiting for Enemy to Overchop, House Scanning, Persian Douche on Islands, Saracen Archer rush on Black Forest, ";
 
 
 
