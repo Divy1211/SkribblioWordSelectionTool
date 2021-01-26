@@ -262,12 +262,12 @@ function unitsF() {
 		list+=unitslist;
 	else
 		list = list.replace(unitslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function uUF() {
 	if(this.checked())
 		list+=uniqueunitslist;
 	else
 		list = list.replace(uniqueunitslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
