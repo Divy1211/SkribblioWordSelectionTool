@@ -106,7 +106,7 @@ function setup() {
 	selectall = createButton("Select All");
 	selectall.mousePressed(selectAllF);
 	
-	//textf = createP(list.substring(0,list.length-2));
+	textf = createP(list.substring(0,list.length-2));
 }
 
 function draw() {
@@ -133,7 +133,7 @@ function selectAllF(){
 	unitscb.checked(true);
 	uniqueunitscb.checked(true);
 	list = listfull;
-	//textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 
 function copyF() {
@@ -150,112 +150,112 @@ function animalsF() {
 		list+=animalslist;
 	else
 		list = list.replace(animalslist,'');
-	//textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function buildingsF() {
 	if(this.checked())
 		list+=buildingslist;
 	else
 		list = list.replace(buildingslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function civsF() {
 	if(this.checked())
 		list+=civslist;
 	else
 		list = list.replace(civslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function gameModesF() {
 	if(this.checked())
 		list+=gamemodeslist;
 	else
 		list = list.replace(gamemodeslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function heroesF() {
 	if(this.checked())
 		list+=heroeslist;
 	else
 		list = list.replace(heroeslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function mapsF() {
 	if(this.checked())
 		list+=mapslist;
 	else
 	list = list.replace(mapslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function mastapiecesF() {
 	if(this.checked())
 		list+=mastapieceslist;
 	else
 		list = list.replace(mastapieceslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function memesF() {
 	if(this.checked())
 		list+=memeslist;
 	else
 		list = list.replace(memeslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function monasteryTechsF() {
 	if(this.checked())
 		list+=monasterytechslist;
 	else
 		list = list.replace(monasterytechslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function peopleF() {
 	if(this.checked())
 		list+=peoplelist;
 	else
 		list = list.replace(peoplelist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function proPlayersF() {
 	if(this.checked())
 		list+=proplayerslist;
 	else
 		list = list.replace(proplayerslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function stratsF() {
 	if(this.checked())
 		list+=stratslist;
 	else
 		list = list.replace(stratslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function streamersF() {
 	if(this.checked())
 		list+=streamerslist;
 	else
 		list = list.replace(streamerslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function techsF() {
 	if(this.checked())
 		list+=techslist;
 	else
 		list = list.replace(techslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function tournamentsF() {
 	if(this.checked())
 		list+=tournamentslist;
 	else
 		list = list.replace(tournamentslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function uniqueTechsF() {
 	if(this.checked())
 		list+=uniquetechslist;
 	else
 		list = list.replace(uniquetechslist,'');
-	// textf.html(list.substring(0,list.length-2));
+	textf.html(list.substring(0,list.length-2));
 }
 function unitsF() {
 	if(this.checked())
