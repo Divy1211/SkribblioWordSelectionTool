@@ -38,7 +38,7 @@ var list = unitslist+techslist+monasterytechslist+uniquetechslist+buildingslist+
 
 var listfull = list;
 
-var selectall, textf, copy;
+var selectall, textf, ccopy;
 function setup() {
 	createCanvas(0,0);
 	animalscb = createCheckbox('Animals', true);
@@ -100,8 +100,8 @@ function setup() {
 	
 	createP("");
 	
-	copy = createButton("Copy List!");
-	copy.mousePressed(copyF);
+	ccopy = createButton("Copy List!");
+	ccopy.mousePressed(copyF);
 
 	selectall = createButton("Select All");
 	selectall.mousePressed(selectAllF);
